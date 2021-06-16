@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;;
+}
+
+main {
+    background-color: #ffffff;
+    padding: 5%;
+}
+header, li, li a, li a:visited {
+    background-color: #c20202;
+    color: #ffffff;
+}
+h1 {
+    
+    font-size: 80px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0;
+}
+
+nav ul{
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px;
+    padding-bottom: 2%;
+}
+
+#economiafem {
+    padding: 5% 2%;
+}
+#redusers {
+    background-color: #ffc400;
+    padding: 5% 2%;
+}
+h2{
+    font-size: 40px;
+    padding: 0% 0 3%;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.486);
+}
+
+h3, h3 a, h3 a:visited {
+    color: #000;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.486);
+    font-size: 20px;
+    justify-content: center;
+    align-self: flex-start;
+}
+
+h3 a:hover {
+    color: red;
+    text-shadow:    0 0 15px #fff, 
+                    0 0 15px #fff;
+    transition: 0.25s;
+}
+
+article {
+    background-color: teal;
+    flex-direction: column;
+    padding: 2.5%;
+    width: 27.5%;
+    overflow: hidden;
+    text-align: center;
+    justify-content: space-between;
+}
+
+article h3, article h3 a, article h3 a:visited {
+    color: #fff;
+    padding-bottom: 2.5%;
+}
+
+#cont_redusers {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+#redusers h2 {
+    text-align: end;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.486);
+}
+figure {
+    
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.486);
+}
+figure img {
+    width: 100%;
+}
+
+footer {
+    height: 10vh;
+    width: 100%;
+    background-color: #c20202;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: #fff;
+
+}
